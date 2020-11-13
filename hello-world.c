@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void printUpToX(int x){
 
     for(int i=0; i<=x; i++){
@@ -7,12 +8,26 @@ void printUpToX(int x){
         printf("\n%d", i);
 
     }
+}
 
+void evenOrOdd(int a){
+
+	if (a%2 == 0){
+		
+		printf("\nOdd");
+		
+	} else{
+		
+		printf("\nEven");
+		
+	}
+	
 }
 
 int main(){
 
 	printf("Hello World");
-        printUpToX(5);
+  printUpToX(5);
+	evenOrOdd(3);
 
 }
