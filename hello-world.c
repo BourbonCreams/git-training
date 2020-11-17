@@ -29,4 +29,5 @@ int main(){
 	evenOrOdd(3);
 	countUpToX(5);
 
+	return 0;
 }
