@@ -10,9 +10,25 @@ void countUpToX(int x) {
 
 }
 
+void evenOrOdd(int x) {
+
+	if (x % 2 == 0) {
+
+		printf("Even");
+
+	}
+	else {
+
+		printf("Odd");
+
+	}
+
+}
+
 int main(){
 
 	printf("Hello World");
 	countUpToX(5);
+	evenOrOdd(3);
 
 }
