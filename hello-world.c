@@ -31,4 +31,5 @@ int main(){
 	countUpToX(5);
 	evenOrOdd(3);
 
+	return 0;
 }
